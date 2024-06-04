@@ -4,4 +4,4 @@ streamlit
 numpy
 scikit-learn
 xgboost
-locale
+locales-all
