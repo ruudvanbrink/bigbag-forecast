@@ -6,9 +6,9 @@ def import_data():
     folder_main_path = r"C:\Users\ruudvanbrink\OneDrive - Jumbo Supermarkten B.V\Avans\Jaar 4\Artificial Intelligence\Rolling Forecast Bigbags"
 
     # Load datasets
-    dataset = pd.read_csv('./data/dataset.csv', delimiter=",")
-    weather_data = pd.read_csv('./data/weather_history.csv', delimiter=";")
-    sales_data = pd.read_csv('./data/sales_dataset.csv', delimiter=",")
+    dataset = pd.read_csv("./data/dataset.csv", delimiter=",")
+    weather_data = pd.read_csv("./data/weather_history.csv", delimiter=";")
+    sales_data = pd.read_csv("./data/sales_dataset.csv", delimiter=",")
 
     # Convert columns to correct format
     dataset['Date'] = pd.to_datetime(dataset['Date'], format="%Y-%m-%d")
