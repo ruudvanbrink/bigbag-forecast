@@ -19,7 +19,7 @@ def load_model():
 model = load_model()
     
 # Laad de scaler met pickle
-with open('scaler.pkl', 'rb') as file:
+with open('app/scaler.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 st.set_page_config(layout="wide")
