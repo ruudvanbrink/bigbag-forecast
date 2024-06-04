@@ -6,7 +6,7 @@ import pickle
 from sklearn.preprocessing import MinMaxScaler
 from xgboost import XGBRegressor
 from sklearn.metrics import mean_absolute_error, mean_absolute_percentage_error
-from preprocessor import preprocess_data
+from app.preprocessor import preprocess_data
 
 def train_xgboost_model(train_data):
     # Preprocess trainingdata
