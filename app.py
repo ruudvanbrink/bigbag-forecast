@@ -12,7 +12,7 @@ locale.setlocale(locale.LC_ALL, 'nl_NL.UTF-8')
 # Laad het model
 #@st.cache_data()
 def load_model():
-    with open('app.model.pkl', 'rb') as file:
+    with open('app/model.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
