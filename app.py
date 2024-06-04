@@ -7,7 +7,7 @@ from app.importer import *
 from app.model import *
 from app.functions import add_forecast_to_history
 
-locale.setlocale(locale.LC_ALL, 'de_DE')
+locale.setlocale(locale.LC_ALL, 'nl_NL.UTF-8')
 
 # Laad het model
 #@st.cache_data()
