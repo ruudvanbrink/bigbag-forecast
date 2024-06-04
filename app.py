@@ -3,9 +3,9 @@ import pickle
 import locale
 import math
 
-from /app/importer import *
-from /app/model import *
-from /app/functions import add_forecast_to_history
+from app/importer import *
+from app/model import *
+from app/functions import add_forecast_to_history
 
 locale.setlocale(locale.LC_ALL, 'nl_NL')
 
