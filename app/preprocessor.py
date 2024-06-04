@@ -1,5 +1,5 @@
 import pandas as pd
-from functions import *
+from app.functions import *
 
 def preprocess_data(data, weather_data, sales_data):
     data = data.copy()
